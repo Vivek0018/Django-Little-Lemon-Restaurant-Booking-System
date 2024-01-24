@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family:  'Poppins', sans-serif;
+  -webkit-text-size-adjust: none;
+  scroll-behavior: smooth;
+}
+a{
+    all: unset;
+}
+h1{
+    font-size: 4rem;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+.logo{
+    height: 10em;
+}
+.max-1300{
+    width: 95vw;
+    max-width: 1300px;
+    margin-inline: auto;
+}
+.padding-20{
+    padding: 20px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    padding-inline: 20px;
+    background-color: rgb(72,93,87);
+    color: rgba(255, 255, 255, 0.8);
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+nav ul .list-item a{
+    display: block;
+    padding: 20px 10px;
+    cursor: pointer;
+}
+nav ul .list-item a:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.sections{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main input, select{
+    padding: 10px;
+    border: 2px solid rgba(0,0,0,0.9);
+}
+.submit-btn{
+    padding: 10px 20px;
+    background-color: rgb(72,93,87);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+footer{
+    background-color: rgb(237,240,238);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright-sec{
+    padding-block: 20px;
+    border-top: 2px solid rgb(72,93,87);
+    width: 30%;
+    text-align: right;
+}
+.sub-c{
+    padding: 10px;
+}
+.sub-c h2{
+    font-size: 2rem;
+    padding-block: 10px;
+}
+.bookings-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#response{
+    display: none;
+}
